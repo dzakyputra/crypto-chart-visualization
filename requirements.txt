@@ -2,3 +2,4 @@ flask
 python-binance
 plotly
 kaleido
+gunicorn
