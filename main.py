@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, send_file
 from binance.client import Client
 import plotly.graph_objects as go
 import datetime
+import os
 
 BINANCE_PUBLIC_KEY = "YYUDVC9T6o9c0hF4UXZFC3go2NtLyUikJS77Fr7W1Rw1fIz5Y28i1xXfIhAMKMf6"
 
